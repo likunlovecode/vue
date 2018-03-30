@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*此样式在窗口小于648px的时候生效*/
+@media screen and (max-width: 640px) {
+.content{
+	width:100%;
+	}
+}
+/*此样式在窗口小于360px的时候生效*/
+@media screen and (max-width: 480px) {
+/*indexNav*/
+.indexNav .in1{
+	height:105px;
+	}
+.indexNav .in1 a{
+	height:105px;
+	background:#bfcf6c;
+	padding:7% 5%;
+	font-size:2.2rem;
+	 }
+.indexNav .in1 a img{width:45%;margin:18px 0 0 0;}
+.indexNav .in2{width:66.66%;}
+.indexNav .in2 a{
+	height:105px;
+	padding:7% 15%;
+	}
+.indexNav .in2 a img{
+	width:50px;
+	height:auto;
+	}
+
+.indexNav .in4 a img{margin-right:5px;}
+}
+/*此样式在窗口小于414px的时候生效*/
+@media screen and (max-width: 414px) {
+.indexNav .in1 a{
+	font-size:2rem;
+	}
+.indexNav .in3 a,.indexNav .in4 a{
+	font-size:1.6rem;
+	}
+.indexNav .in4 a img{
+	width:15px; height:auto;
+	}
+/* .dingimg img{ } */
+.dingdanlist td,.dingdanlist td h3{ font-size:1.2rem;}
+}
+
+
+
+
+
+
+
